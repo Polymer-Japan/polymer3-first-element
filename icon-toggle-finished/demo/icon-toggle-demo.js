@@ -2,14 +2,6 @@ import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '../icon-toggle.js';
 
 class IconToggleDemo extends PolymerElement {
-  static get properties() {
-    return {
-      isFav: {
-        type: Boolean,
-        value: false,
-      }
-    };
-  }
   static get template() {
     return html`
       <style>
