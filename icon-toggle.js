@@ -1,4 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import '@polymer/iron-icons/iron-icons.js';
+import '@polymer/iron-icon/iron-icon.js';
 
 /**
  * `icon-toggle`
@@ -12,20 +14,15 @@ class IconToggle extends PolymerElement {
   static get template() {
     return html`
       <style>
+        /* local DOM styles go here */
         :host {
-          display: block;
+          display: inline-block;
         }
       </style>
-      <h2>Hello [[prop1]]!</h2>
+
+      <!-- local DOM goes here -->
+      <span>Not much here yet.</span>
     `;
-  }
-  static get properties() {
-    return {
-      prop1: {
-        type: String,
-        value: 'icon-toggle',
-      },
-    };
   }
 }
 

@@ -7,9 +7,11 @@
     "npm": ">=5.5.0"
   },
   "scripts": {
-    "start": "polymer serve"
+    "start": "polymer serve --open --browser \"google chrome\" --open-path demo/index.html"
   },
   "dependencies": {
+    "@polymer/iron-icon": "^3.0.0-pre.21",
+    "@polymer/iron-icons": "^3.0.0-pre.21",
     "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {
