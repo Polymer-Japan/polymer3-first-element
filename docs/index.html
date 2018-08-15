@@ -81,7 +81,7 @@
         <p>When the installation finishes, your project folder should look something like this:</p>
         <p><img style="max-width: 430.00px" src="img/7ff367d9be2655df.png"></p>
         
-        <p>The main file you&#39;ll work with is <code>icon-toggle.html</code>, which contains the definition for your custom element.</p>
+        <p>The main file you&#39;ll work with is <code>icon-toggle.js</code>, which contains the definition for your custom element.</p>
         <h2><strong>Run the demo</strong></h2>
         <p>Cool - you made an app! It's that easy. The app doesn't do much yet, but let's take a look at it.</p>
         <p>In the main folder for your app (the root whose-flag folder), type:</p>
@@ -310,7 +310,7 @@ myToggle.toggleIcon = &#34;favorite&#34;;</code></pre>
         <p>Now your element has <code>pressed</code> and <code>toggleIcon</code> properties working. </p>
         <p>Reload the demo, and you should see star and heart icons instead of the hard-coded icon from the previous step:</p>
         <p><img style="max-width: 430.00px" src="img/a11a299579858407.png"></p>
-        <p>If you&#39;re curious about where the stars and hearts come from, you can take a peek at  <code>demo/icon-toggle-demo.html</code> and see lines like this:</p>
+        <p>If you&#39;re curious about where the stars and hearts come from, you can take a peek at  <code>demo/icon-toggle-demo.js</code> and see lines like this:</p>
         <pre><code>&lt;icon-toggle toggle-icon=&#34;star&#34;&gt;&lt;/icon-toggle&gt;
 &lt;icon-toggle toggle-icon=&#34;star&#34; pressed&gt;&lt;/icon-toggle&gt;</code></pre>
 
@@ -354,7 +354,7 @@ class IconToggle extends GestureEventListeners(PolymerElement) {
         <p>Save the <code>icon-toggle.js</code> file and run the demo again. You should be able to press the button and see it toggle between its pressed and unpressed states. </p>
         <p><img style="max-width: 430.00px" src="img/9ccde77fc7ed3f6e.png"></p>
         <aside class="special"><p><strong>Learn more: data binding</strong></p>
-          <p>To see how the demo works, open <code>demo/icon-toggle-demo.html</code> and take a look around. Yes, the demo for this element is also an element. The element uses <a href="https://www.polymer-project.org/3.0/docs/devguide/data-binding#two-way-bindings" target="_blank">two-way data binding</a> and a <a href="https://www.polymer-project.org/3.0/docs/devguide/data-binding#annotated-computed" target="_blank">computed binding</a> to change the string displayed when you toggle the button.</p>
+          <p>To see how the demo works, open <code>demo/icon-toggle-demo.js</code> and take a look around. Yes, the demo for this element is also an element. The element uses <a href="https://www.polymer-project.org/3.0/docs/devguide/data-binding#two-way-bindings" target="_blank">two-way data binding</a> and a <a href="https://www.polymer-project.org/3.0/docs/devguide/data-binding#annotated-computed" target="_blank">computed binding</a> to change the string displayed when you toggle the button.</p>
         </aside>
 
 
